@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义滚动条</title>
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body>
+    <div class="cusScrollMain">
+        <div class="cusScrollContent">
+            <h3>声声慢<span>李清照</span></h3>
+            <p>寻寻觅觅冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。
+                三杯两盏淡酒，怎敌他、晚来风急？雁过也，正伤心，却是旧时相识。
+            </p>
+            <p>
+                满地黄花堆积。憔悴损，如今有谁堪？
+                守着窗儿，独自怎生得黑？梧桐更兼细雨，到黄昏,点点滴滴。
+                这次第，怎一个愁字了得！
+            </p>
+            <h3>声声慢<span>李清照</span></h3>
+            <p>寻寻觅觅冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。
+                三杯两盏淡酒，怎敌他、晚来风急？雁过也，正伤心，却是旧时相识。
+            </p>
+            <p>
+                满地黄花堆积。憔悴损，如今有谁堪？
+                守着窗儿，独自怎生得黑？梧桐更兼细雨，到黄昏,点点滴滴。
+                这次第，怎一个愁字了得！
+            </p>
+            <h3>声声慢<span>李清照</span></h3>
+            <p>寻寻觅觅冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。
+                三杯两盏淡酒，怎敌他、晚来风急？雁过也，正伤心，却是旧时相识。
+            </p>
+            <p>
+                满地黄花堆积。憔悴损，如今有谁堪？
+                守着窗儿，独自怎生得黑？梧桐更兼细雨，到黄昏,点点滴滴。
+                这次第，怎一个愁字了得！
+            </p>
+            <h3>声声慢<span>李清照</span></h3>
+            <p>寻寻觅觅冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。
+                三杯两盏淡酒，怎敌他、晚来风急？雁过也，正伤心，却是旧时相识。
+            </p>
+            <p>
+                满地黄花堆积。憔悴损，如今有谁堪？
+                守着窗儿，独自怎生得黑？梧桐更兼细雨，到黄昏,点点滴滴。
+                这次第，怎一个愁字了得！
+            </p>
+            <h3>声声慢<span>李清照</span></h3>
+            <p>寻寻觅觅冷冷清清，凄凄惨惨戚戚。乍暖还寒时候，最难将息。
+                三杯两盏淡酒，怎敌他、晚来风急？雁过也，正伤心，却是旧时相识。
+            </p>
+            <p>
+                满地黄花堆积。憔悴损，如今有谁堪？
+                守着窗儿，独自怎生得黑？梧桐更兼细雨，到黄昏,点点滴滴。
+                这次第，怎一个愁字了得！
+            </p>
+        </div>
+        <div class="cusScrollBar">
+            <div class="cusScrollSlider"></div>
+        </div>
+    </div>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/index.js"></script>
+<script>
+    $(function () {
+        new window.SelfScroll(
+            {
+                selectors:{
+                    scrollContent:".cusScrollContent",//内容区
+                    scrollBar:".cusScrollBar",//滚动区
+                    scrollSlider:".cusScrollSlider"//滑块
+                },
+                scrollStep:40//滚动步长
+            });
+    });
+</script>
+</body>
+</html>

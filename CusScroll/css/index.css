@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cusScrollMain{
+    width: 600px;
+    height: 300px;
+    border:1px solid pink ;
+    margin: 100px auto;
+    position: absolute;
+    overflow: hidden;
+}
+.cusScrollContent{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: left;
+}
+.cusScrollContent h3{
+    text-align: center;
+    line-height: 20px;
+}
+.cusScrollContent h3 span{
+    font-size: 15px;
+}
+.cusScrollContent p{
+    text-indent: 20px;
+    line-height: 25px;
+    margin: 8px;
+}
+
+.cusScrollBar{
+    width: 20px;
+    height: 100%;
+    border: 1px solid #ccc;
+    float: right;
+}
+.cusScrollSlider{
+    width: 100%;
+    background: #cccccc;
+}
